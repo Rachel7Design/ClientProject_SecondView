@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic Needs</title>
+    <link rel = "stylesheet" href = "css/html5reset.css" >
+    <link rel = "stylesheet" href = "css/style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+</head>
+
+<body>
+    <header>  
+        <a class = "skip"  tabindex="0" href = "#main">Skip to Main Content</a>
+        
+             <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" class="logo" alt="UMSI Logo" width="65">
+             <img src="desktop_images/UMSI_long_logo.png" class="longLogo" alt="UMSI Logo" width="500">
+        <nav>
+            <ul class="nav">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "cupboard.html">Cupboard</a></li>
+                <li class="basicneeds"><a href = "basic_needs.html"> Basic Needs </a></li>
+                <li><a href = "first_gen.html"> First Generation </a></li>
+            </ul>
+        </nav>
+        <h1  class="header"> Basic Needs </h1>
+    </header>
+    <img src="desktop_images/bus.jpg" class="bus" alt="student walking towards U-M bus">
+
+<main class="mainNeeds">
+
+    <h2> About </h2>
+    <section class="needsAbout">
+
+        <p> We believe in fair and equitable access to food and other basic resources. Because when each of us has what we need, our community is stronger and our students are more successful.
+
+        This website has been created to share information about the resources available to students. It’s also a place to share data and research that will help the U-M community understand how important this work is for the entire campus.
+
+        This work is led by Student Life and supported by academic units and campus partners. Because more resources are being discovered and created on a regular basis, this website will be updated often. Please be patient as we grow this important resource.
+        </p>
+
+    </section>
+
+    <br> <br>
+    <section class="gridNeeds">
+
+        <ul class="gridBox">
+            <li class="column1"> <h3><strong>Incident Support & Conflict Management</strong> </h3> Support for students who are experiencing or have been impacted by conflict or critical incident. </li>
+            <li class="column1"> <h3><strong>Finance</strong> </h3> Financial resources to help with immediate and long-term needs, such as emergencies, college funding and employment. </li>
+            <li class="Middle"> <h3> <strong>Food </strong> <br>Services to help students maintain healthy habits, find access to food, and seek assistance when struggling to buy food. </li></h3>
+            <li class="column2"> <h3> <strong>Health Care</strong> </h3> Support for students seeking medical, dental or mental health treatment, including resources for securing health insurance and finding care providers. </li>
+            <li class="row3"> <h3> <strong>Housing & Transportation </strong> </h3> Campus and community resources for securing housing, accessing transportation, and seeking assistance for a variety of housing needs. </li>
+        </ul>
+
+    </section> 
+    
+
+    <section class="mobileImage">
+        <img src="images/Thanksgiving.jpg" alt= "a student grabbing food from a thanksgiving table" width="300" height="500">
+    </section>
+
+</main>
+
+<br><br>
+
+    <footer> 
+       <p>  &copy <span id="year"></span> UM Student Life Basic Needs <br> <a href= "https://basicneeds.studentlife.umich.edu/contact/"> Click Here to Contact <br> <a  href="https://basicneeds.studentlife.umich.edu/">  </p><p class="footer">Please Click Here to Visit the Basic Needs Website for more Information</a> </p>
+    </footer>
+
+
+</body>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+</html>
